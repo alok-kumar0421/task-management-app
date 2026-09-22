@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Secrets
+credentials.json
+token.json
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
